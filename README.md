@@ -1,26 +1,28 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+# Instagram Photo feed.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
+Creando una landing page que simula los posts de Instagram.
 
-The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
+### Pre-requisitos 📋
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
+1. Ordenador o dispositivo movil.
+2. Programa donde copiar el repositorio. (Gitpod, VisualStudioCode, Pycharm ....)
+3. Navegador web donde visualizar el resultado del codigo.
 
-## What to do next?
 
-Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## Construido con 🛠️
 
-```sh
-$ pip3 install flask && python3 server.py
-```
+* [HTML5] - Base del Front-end
+* [CSS3] - Genera los estilos del HTML.
 
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Estructura y explicación del codigo ⚙️
+
+* Landing page en HTML5 y CSS3. Se crea la estructura de los posts con HTML en el archivo index. Se usa flex container por lo tanto dentro del container principal se crea un div de clas post que sera el contenedor de cada post como su nombre indica. Dentro de este se encuentra un div post-header con el titulo, un div con la imagen del mismo y un div final con la descripcion del post.
+* El CSS es el encargado de darle una mejor visualizacion al HTML de esa forma hacemos que el body tenga un fondo gris y que cada post tenga un fondo blanco para que destaquen sobre este. Hacemos que el contenedor principal tenga un ancho de 600 px y margin auto para que los post que contendra se centren en la pantalla. Estos post se separan entre ellos con un margin y se usan reglas de especificidad para ordenar cada uno de los elementos interiores. Para la imagen se usa un ancho del 100% del contenedor padre.
+
+
+## Autor ✒️
+
+* **Jose Luis Gil** - *Ejercicio terminado* - [JoseLike](https://github.com/JoseLike)
+
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/JoseLike/excuse-generator/contributors) quíenes han participado en este proyecto. 
