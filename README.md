@@ -14,6 +14,13 @@ Creando una landing page que simula los posts de Instagram.
 * [HTML5] - Base del Front-end
 * [CSS3] - Genera los estilos del HTML.
 
+## Deployment
+
+Para lanzar este proyecto introducir en la consola:
+
+```bash
+  pip3 install flask && python server.py
+
 
 ## Estructura y explicación del codigo ⚙️
 
